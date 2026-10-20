@@ -95,6 +95,8 @@ blast radius of a mistake is bounded by what the API can express.`,
 		newProfileCommand(),
 		newSystemCommand(),
 		newConfigCommand(),
+		newInstallSkillCommand(),
+		newPrintSkillCommand(),
 	)
 	return root
 }

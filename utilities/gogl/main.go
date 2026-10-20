@@ -14,6 +14,7 @@ import (
 
 	"github.com/emergingrobotics/gogl/src/types"
 	"github.com/emergingrobotics/gogl/utilities/internal/conn"
+	"github.com/emergingrobotics/gogl/utilities/internal/skillinstall"
 )
 
 // Exit codes. Distinguishing a refusal from a failure matters for scripting: a guard
@@ -58,6 +59,7 @@ func codeFor(err error) int {
 	case errors.Is(err, types.ErrDomainNotSet),
 		errors.Is(err, types.ErrReservationsExist),
 		errors.Is(err, types.ErrWirelessSession),
+		errors.Is(err, skillinstall.ErrConflict),
 		errors.Is(err, errRefused):
 		return exitRefused
 	case errors.Is(err, errUsage):
