@@ -106,9 +106,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/emergingrobotics/gogl/src/mock"
-	"github.com/emergingrobotics/gogl/src/services"
-	"github.com/emergingrobotics/gogl/src/transport"
+	"github.com/gherlein/gogl/src/mock"
+	"github.com/gherlein/gogl/src/services"
+	"github.com/gherlein/gogl/src/transport"
 )
 
 // newTransport wires a Transport to a mock server. Shared by every service test
@@ -199,7 +199,7 @@ package services
 import (
 	"context"
 
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // NetworkService reads the router's LAN and DHCP configuration. Read-only.
@@ -240,8 +240,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/emergingrobotics/gogl/src/transport"
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/transport"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // Group and method names captured in Phase 0. Declared here rather than inline
@@ -318,9 +318,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/emergingrobotics/gogl/src/mock"
-	"github.com/emergingrobotics/gogl/src/services"
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/mock"
+	"github.com/gherlein/gogl/src/services"
+	"github.com/gherlein/gogl/src/types"
 )
 
 const networkFixture = `{
@@ -406,8 +406,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/emergingrobotics/gogl/src/transport"
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/transport"
+	"github.com/gherlein/gogl/src/types"
 )
 
 const (
@@ -488,9 +488,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/emergingrobotics/gogl/src/mock"
-	"github.com/emergingrobotics/gogl/src/services"
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/mock"
+	"github.com/gherlein/gogl/src/services"
+	"github.com/gherlein/gogl/src/types"
 )
 
 func seeded(t *testing.T) (*mock.Server, services.ReservationService) {
@@ -711,8 +711,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/emergingrobotics/gogl/src/transport"
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/transport"
+	"github.com/gherlein/gogl/src/types"
 )
 
 const (
@@ -972,8 +972,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/emergingrobotics/gogl/src/mock"
-	"github.com/emergingrobotics/gogl/src/services"
+	"github.com/gherlein/gogl/src/mock"
+	"github.com/gherlein/gogl/src/services"
 )
 
 const clientsFixture = `{"clients":[
@@ -1048,8 +1048,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/emergingrobotics/gogl/src/transport"
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/transport"
+	"github.com/gherlein/gogl/src/types"
 )
 
 const (
@@ -1235,7 +1235,7 @@ import (
 	"fmt"
 	"os"
 
-	gogl "github.com/emergingrobotics/gogl/src"
+	gogl "github.com/gherlein/gogl/src"
 )
 
 // DefaultPort is 80, not 443, because that is what GL.iNet firmware serves.
@@ -1379,7 +1379,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/types"
 )
 
 func testReport() *Report {
@@ -1470,7 +1470,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // stubs let buildReport be tested without a client, which keeps this test fast
@@ -1561,7 +1561,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // Report is the flattened view goglnet prints. JSON tags define the -j output
@@ -1757,7 +1757,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/emergingrobotics/gogl/utilities/internal/conn"
+	"github.com/gherlein/gogl/utilities/internal/conn"
 )
 
 func main() {

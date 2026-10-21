@@ -40,7 +40,7 @@ const (
 	// Filter that answers Go's default "Go-http-client/1.1" with HTTP 418, which
 	// looks exactly like a broken network but is not. Any honest identifier gets
 	// through; this one does not impersonate a browser.
-	userAgent = "goglmac (+https://github.com/emergingrobotics/gogl)"
+	userAgent = "goglmac (+https://github.com/gherlein/gogl)"
 
 	// downloadTimeout bounds the fetch. Without it a captive portal -- the normal
 	// state of the hotel network this tool exists to sit behind -- can hang the

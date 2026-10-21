@@ -10,10 +10,10 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	gogl "github.com/emergingrobotics/gogl/src"
-	"github.com/emergingrobotics/gogl/src/services"
-	"github.com/emergingrobotics/gogl/src/types"
-	"github.com/emergingrobotics/gogl/utilities/internal/conn"
+	gogl "github.com/gherlein/gogl/src"
+	"github.com/gherlein/gogl/src/services"
+	"github.com/gherlein/gogl/src/types"
+	"github.com/gherlein/gogl/utilities/internal/conn"
 )
 
 // WirelessModes are the flags governing a wireless write.

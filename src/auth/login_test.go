@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/emergingrobotics/gogl/src/auth"
-	"github.com/emergingrobotics/gogl/src/mock"
+	"github.com/gherlein/gogl/src/auth"
+	"github.com/gherlein/gogl/src/mock"
 )
 
 func TestLoginReturnsSID(t *testing.T) {

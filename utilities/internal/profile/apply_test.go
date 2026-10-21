@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	gogl "github.com/emergingrobotics/gogl/src"
-	"github.com/emergingrobotics/gogl/src/mock"
-	"github.com/emergingrobotics/gogl/src/types"
+	gogl "github.com/gherlein/gogl/src"
+	"github.com/gherlein/gogl/src/mock"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // Apply's ordering is the whole design: domain, network, reservations, names, wireless.

@@ -6,8 +6,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/emergingrobotics/gogl/utilities/internal/clients"
-	"github.com/emergingrobotics/gogl/utilities/internal/conn"
+	"github.com/gherlein/gogl/utilities/internal/clients"
+	"github.com/gherlein/gogl/utilities/internal/conn"
 )
 
 func newClientsCommand() *cobra.Command {

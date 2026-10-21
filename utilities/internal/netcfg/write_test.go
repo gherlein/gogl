@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	gogl "github.com/emergingrobotics/gogl/src"
-	"github.com/emergingrobotics/gogl/src/mock"
-	"github.com/emergingrobotics/gogl/src/types"
+	gogl "github.com/gherlein/gogl/src"
+	"github.com/gherlein/gogl/src/mock"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // These drive SetNetwork through a real client against the mock router,

@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/emergingrobotics/gogl/src/transport"
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/transport"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // CONFIRMED against a GL-SFT1200 on firmware 4.3.28, 2026-07-28: clients.get_list

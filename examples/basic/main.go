@@ -11,7 +11,7 @@ import (
 	"log"
 	"os"
 
-	gogl "github.com/emergingrobotics/gogl/src"
+	gogl "github.com/gherlein/gogl/src"
 )
 
 func main() {

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // Stubs let BuildReport be tested without a client, which keeps this test fast

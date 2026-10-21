@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/emergingrobotics/gogl/src/mock"
-	"github.com/emergingrobotics/gogl/src/services"
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/mock"
+	"github.com/gherlein/gogl/src/services"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // HostsService is where gogl creates DNS records, and it does so by rewriting a

@@ -102,3 +102,6 @@ go.work.sum
 
 # Discovery captures hold live payloads: WiFi passphrases in cleartext, session ids.
 discovery/captures/
+
+# GoReleaser build output
+/dist/

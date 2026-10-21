@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/emergingrobotics/gogl/src/services"
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/services"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // NormalizeBand accepts the spellings an operator will reach for and returns the band

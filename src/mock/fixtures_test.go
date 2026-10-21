@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // Every fixture the mock serves must decode through the types the library uses.

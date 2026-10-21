@@ -3,8 +3,8 @@ package services_test
 import (
 	"testing"
 
-	"github.com/emergingrobotics/gogl/src/mock"
-	"github.com/emergingrobotics/gogl/src/transport"
+	"github.com/gherlein/gogl/src/mock"
+	"github.com/gherlein/gogl/src/transport"
 )
 
 // newTransport wires a Transport to a mock server. Keepalive is off: these tests

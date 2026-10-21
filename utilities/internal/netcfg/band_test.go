@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/emergingrobotics/gogl/src/mock"
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/mock"
+	"github.com/gherlein/gogl/src/types"
 )
 
 func TestNormalizeBand(t *testing.T) {

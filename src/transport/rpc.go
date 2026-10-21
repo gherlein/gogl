@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/emergingrobotics/gogl/src/auth"
+	"github.com/gherlein/gogl/src/auth"
 )
 
 const (

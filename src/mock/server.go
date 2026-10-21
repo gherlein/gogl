@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/emergingrobotics/gogl/src/auth"
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/auth"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // Defaults mirror the real device. Tests shorten the TTLs to drive expiry

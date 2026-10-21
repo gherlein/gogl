@@ -3,7 +3,7 @@ package clients
 import (
 	"testing"
 
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // Iface values as firmware 4.3.28 reports them: "cable", "2.4G" or "5G".

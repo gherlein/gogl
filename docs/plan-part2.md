@@ -77,7 +77,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/emergingrobotics/gogl/src/auth"
+	"github.com/gherlein/gogl/src/auth"
 )
 
 // post is a raw JSON-RPC helper so the mock's tests do not depend on the
@@ -316,7 +316,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/emergingrobotics/gogl/src/auth"
+	"github.com/gherlein/gogl/src/auth"
 )
 
 // Defaults mirror the real device. Tests shorten the TTLs to drive expiry
@@ -645,8 +645,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/emergingrobotics/gogl/src/auth"
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/auth"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // authenticate performs the full two-challenge login and returns the sid.
@@ -789,7 +789,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // Group and method names. These are placeholders until Phase 0 records the real
@@ -970,8 +970,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/emergingrobotics/gogl/src/auth"
-	"github.com/emergingrobotics/gogl/src/mock"
+	"github.com/gherlein/gogl/src/auth"
+	"github.com/gherlein/gogl/src/mock"
 )
 
 func TestLoginReturnsSID(t *testing.T) {
@@ -1300,8 +1300,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/emergingrobotics/gogl/src/mock"
-	"github.com/emergingrobotics/gogl/src/transport"
+	"github.com/gherlein/gogl/src/mock"
+	"github.com/gherlein/gogl/src/transport"
 )
 
 func newTransport(t *testing.T, s *mock.Server, cfg transport.Config) transport.Transport {
@@ -1584,7 +1584,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/emergingrobotics/gogl/src/auth"
+	"github.com/gherlein/gogl/src/auth"
 )
 
 // Defaults. KeepaliveInterval stays well under the device's ~35s session idle
@@ -1909,8 +1909,8 @@ import (
 	"strings"
 	"testing"
 
-	gogl "github.com/emergingrobotics/gogl/src"
-	"github.com/emergingrobotics/gogl/src/mock"
+	gogl "github.com/gherlein/gogl/src"
+	"github.com/gherlein/gogl/src/mock"
 )
 
 // clientFor points a Client at a mock server by parsing the mock's URL back
@@ -2065,7 +2065,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/emergingrobotics/gogl/src/transport"
+	"github.com/gherlein/gogl/src/transport"
 )
 
 // Defaults reflect what GL.iNet firmware actually serves: HTTP on port 80, and
@@ -2206,8 +2206,8 @@ import (
 	"testing"
 	"time"
 
-	gogl "github.com/emergingrobotics/gogl/src"
-	"github.com/emergingrobotics/gogl/src/mock"
+	gogl "github.com/gherlein/gogl/src"
+	"github.com/gherlein/gogl/src/mock"
 )
 
 // The full stack: crypt, two-challenge login, session, keepalive, retry, and

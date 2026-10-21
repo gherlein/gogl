@@ -8,7 +8,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/emergingrobotics/gogl/utilities/internal/config"
+	"github.com/gherlein/gogl/utilities/internal/config"
 )
 
 func newConfigCommand() *cobra.Command {

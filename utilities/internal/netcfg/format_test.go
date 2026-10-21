@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/types"
 )
 
 func testReport() *Report {

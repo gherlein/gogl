@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/emergingrobotics/gogl/src/mock"
-	"github.com/emergingrobotics/gogl/src/services"
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/mock"
+	"github.com/gherlein/gogl/src/services"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // The factory host file, so tests start from the state a real router is in.

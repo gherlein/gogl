@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/emergingrobotics/gogl/src/ipmath"
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/ipmath"
+	"github.com/gherlein/gogl/src/types"
 )
 
 const indent = "    "

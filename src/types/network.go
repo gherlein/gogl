@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/emergingrobotics/gogl/src/ipmath"
+	"github.com/gherlein/gogl/src/ipmath"
 )
 
 // Interface names lan.get_config_list reports. The firmware returns both in a

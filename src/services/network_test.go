@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/emergingrobotics/gogl/src/mock"
-	"github.com/emergingrobotics/gogl/src/services"
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/mock"
+	"github.com/gherlein/gogl/src/services"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // Captured verbatim from lan.get_config_list on a GL-SFT1200 running firmware

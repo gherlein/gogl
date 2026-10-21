@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/emergingrobotics/gogl/src/ipmath"
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/ipmath"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // Entry is one row of goglmac output. JSON tags define the -j contract.

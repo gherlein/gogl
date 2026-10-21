@@ -6,9 +6,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/emergingrobotics/gogl/src/mock"
-	"github.com/emergingrobotics/gogl/src/services"
-	"github.com/emergingrobotics/gogl/src/transport"
+	"github.com/gherlein/gogl/src/mock"
+	"github.com/gherlein/gogl/src/services"
+	"github.com/gherlein/gogl/src/transport"
 )
 
 func TestSystemInfo(t *testing.T) {

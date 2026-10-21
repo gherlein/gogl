@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/emergingrobotics/gogl/src/mock"
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/mock"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // A host declaration is two writes to two unrelated tables: a static bind for the

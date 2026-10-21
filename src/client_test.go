@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	gogl "github.com/emergingrobotics/gogl/src"
-	"github.com/emergingrobotics/gogl/src/mock"
+	gogl "github.com/gherlein/gogl/src"
+	"github.com/gherlein/gogl/src/mock"
 )
 
 // clientFor points a Client at a mock server by splitting the mock's URL back

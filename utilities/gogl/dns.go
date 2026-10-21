@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/emergingrobotics/gogl/utilities/internal/reservations"
+	"github.com/gherlein/gogl/utilities/internal/reservations"
 )
 
 func newDNSCommand() *cobra.Command {

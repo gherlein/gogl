@@ -239,8 +239,32 @@ in [`GL_INET_4X_API_DOCUMENTATION.md`](GL_INET_4X_API_DOCUMENTATION.md).
 
 ## Quick start
 
+**Install with Homebrew.** Releases are published to a Homebrew tap. The `brew trust`
+step is required because Homebrew refuses to load formulae from a tap you have not
+trusted:
+
 ```bash
-git clone https://github.com/emergingrobotics/gogl
+brew tap gherlein/tap
+brew trust gherlein/tap
+brew install gogl
+```
+
+The Homebrew install is tested only on Linux.
+
+**Quick install for Go users.** To install just the `gogl` binary, with no checkout, run:
+
+```bash
+go install github.com/gherlein/gogl/utilities/gogl@latest
+```
+
+It lands in your Go binary directory (`$GOBIN`, or `~/go/bin` by default; put it on your
+`PATH`). Building from a checkout (below) is the way to get the `make` targets and run
+the tests.
+
+**Build from source.**
+
+```bash
+git clone https://github.com/gherlein/gogl
 cd gogl
 make build            # builds bin/gogl
 make install          # installs to ~/.local/bin
@@ -455,7 +479,7 @@ One tool would close a real gap and is not built:
 # Part 2: Using gogl in your Go program
 
 ```bash
-go get github.com/emergingrobotics/gogl
+go get github.com/gherlein/gogl
 ```
 
 The library lives under `src/`, so the import path carries that suffix while the package
@@ -463,8 +487,8 @@ name is `gogl`:
 
 ```go
 import (
-    gogl "github.com/emergingrobotics/gogl/src"
-    "github.com/emergingrobotics/gogl/src/types"
+    gogl "github.com/gherlein/gogl/src"
+    "github.com/gherlein/gogl/src/types"
 )
 ```
 

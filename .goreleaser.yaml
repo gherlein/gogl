@@ -1,0 +1,50 @@
+version: 2
+
+# NOTE: `goreleaser check` reports `brews` as deprecated in favour of `homebrew_casks`.
+# That replacement produces a macOS Cask only, but this tap serves Linux and macOS, so
+# `brews` is kept deliberately and the deprecation notice is accepted.
+
+project_name: gogl
+
+builds:
+  - id: gogl
+    main: ./utilities/gogl
+    binary: gogl
+    env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+    ldflags:
+      - -s -w -X github.com/gherlein/gogl/utilities/internal/conn.Version={{ .Version }}
+
+archives:
+  - formats:
+      - tar.gz
+    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+    files:
+      - README.md
+
+checksum:
+  name_template: "checksums.txt"
+
+brews:
+  - name: gogl
+    repository:
+      owner: gherlein
+      name: homebrew-tap
+      token: "{{ .Env.HOMEBREW_TAP_TOKEN }}"
+      # Direct pushes to the tap's main are blocked, so publish the formula as a pull
+      # request and leave the merge to a human.
+      pull_request:
+        enabled: true
+        base:
+          branch: main
+    homepage: "https://github.com/gherlein/gogl"
+    description: "Manage GL.iNet 4.x travel routers over their JSON-RPC API"
+    # Confirms the installed binary runs; `gogl -h` prints help and exits 0.
+    test: |
+      system "#{bin}/gogl", "-h"
