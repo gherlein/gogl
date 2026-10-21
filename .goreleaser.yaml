@@ -33,6 +33,9 @@ checksum:
 
 brews:
   - name: gogl
+    # Publish to Formula/, the tap's convention; the default places the formula at the
+    # repository root, where modern Homebrew does not look, so `brew install` fails.
+    directory: Formula
     repository:
       owner: gherlein
       name: homebrew-tap
