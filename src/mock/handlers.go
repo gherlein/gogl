@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // Group and method names.

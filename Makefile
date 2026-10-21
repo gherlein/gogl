@@ -21,7 +21,7 @@ LEGACY_INSTALL_DIR := $(HOME)/bin
 # Build stamp. Prefers a git tag, falls back to a short revision, then to nothing --
 # in which case the binary reports the toolchain's own VCS stamp.
 VERSION ?= $(shell git describe --tags --always --dirty 2>/dev/null)
-LDFLAGS := -X github.com/emergingrobotics/gogl/utilities/internal/conn.Version=$(VERSION)
+LDFLAGS := -X github.com/gherlein/gogl/utilities/internal/conn.Version=$(VERSION)
 
 .DEFAULT_GOAL := help
 

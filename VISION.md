@@ -347,8 +347,8 @@ and any interface or radio the target lacks is reported and skipped rather than 
 
 ## Architecture Overview
 
-The module path is `github.com/emergingrobotics/gogl`; the library source lives under
-`src/`, so the root package is imported as `github.com/emergingrobotics/gogl/src`
+The module path is `github.com/gherlein/gogl`; the library source lives under
+`src/`, so the root package is imported as `github.com/gherlein/gogl/src`
 (package name is `gogl`). `examples/` and `utilities/` remain at the repo top level.
 
 Keeping the library under `src/` rather than at the root leaves `examples/` and `utilities/`

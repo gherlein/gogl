@@ -13,7 +13,7 @@ package services
 import (
 	"context"
 
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // NetworkService reads the router's LAN and DHCP configuration. Read-only.

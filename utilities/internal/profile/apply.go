@@ -7,9 +7,9 @@ import (
 	"io"
 	"strings"
 
-	gogl "github.com/emergingrobotics/gogl/src"
-	"github.com/emergingrobotics/gogl/src/services"
-	"github.com/emergingrobotics/gogl/src/types"
+	gogl "github.com/gherlein/gogl/src"
+	"github.com/gherlein/gogl/src/services"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // ApplyModes are the flags governing a load.

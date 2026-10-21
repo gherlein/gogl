@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	gogl "github.com/emergingrobotics/gogl/src"
+	gogl "github.com/gherlein/gogl/src"
 )
 
 // ShowOptions controls what Show reports.

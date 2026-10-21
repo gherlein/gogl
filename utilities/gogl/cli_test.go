@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/emergingrobotics/gogl/src/mock"
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/mock"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // These drive the real cobra tree against the mock router, which is the only way to

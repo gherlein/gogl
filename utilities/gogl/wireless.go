@@ -5,9 +5,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/emergingrobotics/gogl/src/types"
-	"github.com/emergingrobotics/gogl/utilities/internal/conn"
-	"github.com/emergingrobotics/gogl/utilities/internal/netcfg"
+	"github.com/gherlein/gogl/src/types"
+	"github.com/gherlein/gogl/utilities/internal/conn"
+	"github.com/gherlein/gogl/utilities/internal/netcfg"
 )
 
 // bandTarget resolves --band and --guest into the device and interface names the

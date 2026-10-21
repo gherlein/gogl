@@ -473,7 +473,7 @@ package main
 import (
 	"testing"
 
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/types"
 )
 
 func testClients() []types.Client {
@@ -648,8 +648,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/emergingrobotics/gogl/src/internal/ipmath"
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/internal/ipmath"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // Entry is one row of goglmac output. JSON tags define the -j contract; the
@@ -796,7 +796,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/emergingrobotics/gogl/utilities/internal/conn"
+	"github.com/gherlein/gogl/utilities/internal/conn"
 )
 
 func main() {
@@ -1146,7 +1146,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // Declaration is one parsed host block, with the line its block opened on so
@@ -1366,7 +1366,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/types"
 )
 
 func formatFixture() ([]types.Reservation, Header) {
@@ -1510,8 +1510,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/emergingrobotics/gogl/src/internal/ipmath"
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/internal/ipmath"
+	"github.com/gherlein/gogl/src/types"
 )
 
 const indent = "    "
@@ -1658,7 +1658,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/types"
 )
 
 type stubReservations struct {
@@ -1842,7 +1842,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // The narrow interfaces below let every operation be tested with stubs.
@@ -2058,7 +2058,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/emergingrobotics/gogl/utilities/internal/conn"
+	"github.com/gherlein/gogl/utilities/internal/conn"
 )
 
 func main() {
@@ -2194,7 +2194,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // fakeWriter records mutations so a test can assert on what was attempted.
@@ -2376,8 +2376,8 @@ import (
 	"io"
 	"os"
 
-	gogl "github.com/emergingrobotics/gogl/src"
-	"github.com/emergingrobotics/gogl/src/types"
+	gogl "github.com/gherlein/gogl/src"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // reservationWriter is the mutating subset of ReservationService, so applyPlan
@@ -2590,7 +2590,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/types"
 )
 
 func deviceState() []types.Reservation {
@@ -2761,8 +2761,8 @@ import (
 	"os"
 	"strings"
 
-	gogl "github.com/emergingrobotics/gogl/src"
-	"github.com/emergingrobotics/gogl/src/types"
+	gogl "github.com/gherlein/gogl/src"
+	"github.com/gherlein/gogl/src/types"
 	"golang.org/x/term"
 )
 
@@ -3190,7 +3190,7 @@ import (
 	"log"
 	"os"
 
-	gogl "github.com/emergingrobotics/gogl/src"
+	gogl "github.com/gherlein/gogl/src"
 )
 
 func main() {
@@ -3233,7 +3233,7 @@ import (
 	"log"
 	"os"
 
-	gogl "github.com/emergingrobotics/gogl/src"
+	gogl "github.com/gherlein/gogl/src"
 )
 
 func main() {
@@ -3307,8 +3307,8 @@ import (
 	"log"
 	"os"
 
-	gogl "github.com/emergingrobotics/gogl/src"
-	"github.com/emergingrobotics/gogl/src/types"
+	gogl "github.com/gherlein/gogl/src"
+	"github.com/gherlein/gogl/src/types"
 )
 
 const (

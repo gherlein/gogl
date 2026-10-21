@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // fakeWriter records mutations so a test can assert on what was attempted.

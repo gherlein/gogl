@@ -11,8 +11,8 @@ import (
 	"os"
 	"strings"
 
-	gogl "github.com/emergingrobotics/gogl/src"
-	"github.com/emergingrobotics/gogl/utilities/internal/config"
+	gogl "github.com/gherlein/gogl/src"
+	"github.com/gherlein/gogl/utilities/internal/config"
 )
 
 // DefaultPort is 80, not 443, because that is what GL.iNet firmware serves. A

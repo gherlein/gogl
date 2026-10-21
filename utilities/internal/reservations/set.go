@@ -7,8 +7,8 @@ import (
 	"io"
 	"os"
 
-	gogl "github.com/emergingrobotics/gogl/src"
-	"github.com/emergingrobotics/gogl/src/types"
+	gogl "github.com/gherlein/gogl/src"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // reservationWriter is the mutating subset of ReservationService, so applyPlan can

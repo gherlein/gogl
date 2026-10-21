@@ -8,9 +8,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	gogl "github.com/emergingrobotics/gogl/src"
-	"github.com/emergingrobotics/gogl/utilities/internal/config"
-	"github.com/emergingrobotics/gogl/utilities/internal/conn"
+	gogl "github.com/gherlein/gogl/src"
+	"github.com/gherlein/gogl/utilities/internal/config"
+	"github.com/gherlein/gogl/utilities/internal/conn"
 )
 
 // Global connection settings, shared by every command through persistent flags.

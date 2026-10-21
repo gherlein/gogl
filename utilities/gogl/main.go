@@ -12,9 +12,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/emergingrobotics/gogl/src/types"
-	"github.com/emergingrobotics/gogl/utilities/internal/conn"
-	"github.com/emergingrobotics/gogl/utilities/internal/skillinstall"
+	"github.com/gherlein/gogl/src/types"
+	"github.com/gherlein/gogl/utilities/internal/conn"
+	"github.com/gherlein/gogl/utilities/internal/skillinstall"
 )
 
 // Exit codes. Distinguishing a refusal from a failure matters for scripting: a guard

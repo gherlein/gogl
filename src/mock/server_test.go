@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/emergingrobotics/gogl/src/auth"
+	"github.com/gherlein/gogl/src/auth"
 )
 
 // post is a raw JSON-RPC helper. The mock's own tests deliberately avoid the

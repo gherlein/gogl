@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/emergingrobotics/gogl/src/services"
-	"github.com/emergingrobotics/gogl/src/transport"
+	"github.com/gherlein/gogl/src/services"
+	"github.com/gherlein/gogl/src/transport"
 )
 
 // Defaults reflect what GL.iNet firmware actually serves: HTTP on port 80, and

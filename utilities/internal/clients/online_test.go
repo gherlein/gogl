@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // The online default exists because of a real observation: after the LAN was renumbered

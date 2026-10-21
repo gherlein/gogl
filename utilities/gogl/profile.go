@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/emergingrobotics/gogl/utilities/internal/profile"
+	"github.com/gherlein/gogl/utilities/internal/profile"
 )
 
 func newProfileCommand() *cobra.Command {

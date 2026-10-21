@@ -254,12 +254,12 @@ Import paths:
 
 ```go
 import (
-    gogl "github.com/emergingrobotics/gogl/src"
-    "github.com/emergingrobotics/gogl/src/types"
+    gogl "github.com/gherlein/gogl/src"
+    "github.com/gherlein/gogl/src/types"
 )
 ```
 
-The module is `github.com/emergingrobotics/gogl` and the library sits under `src/`, so the
+The module is `github.com/gherlein/gogl` and the library sits under `src/`, so the
 root package is imported as `.../gogl/src` while its package name is `gogl`. Keeping the
 library in a subdirectory leaves `examples/` and `utilities/` as its peers, so the three
 surfaces — library, consumers, CLI — sit at one level.

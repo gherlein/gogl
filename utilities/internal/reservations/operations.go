@@ -7,7 +7,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // The narrow interfaces below let every operation be tested with stubs rather

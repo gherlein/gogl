@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	gogl "github.com/emergingrobotics/gogl/src"
+	gogl "github.com/gherlein/gogl/src"
 )
 
 // flagsFor builds Flags with a clean environment.

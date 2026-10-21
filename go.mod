@@ -1,4 +1,4 @@
-module github.com/emergingrobotics/gogl
+module github.com/gherlein/gogl
 
 go 1.25.0
 

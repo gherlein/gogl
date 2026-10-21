@@ -3,8 +3,8 @@ package main
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/emergingrobotics/gogl/skill"
-	"github.com/emergingrobotics/gogl/utilities/internal/skillinstall"
+	"github.com/gherlein/gogl/skill"
+	"github.com/gherlein/gogl/utilities/internal/skillinstall"
 )
 
 // newInstallSkillCommand builds the fixed `install-skill` subcommand required by the

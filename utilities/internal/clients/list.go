@@ -5,9 +5,9 @@ import (
 	"errors"
 	"io"
 
-	gogl "github.com/emergingrobotics/gogl/src"
-	"github.com/emergingrobotics/gogl/src/types"
-	"github.com/emergingrobotics/gogl/utilities/internal/conn"
+	gogl "github.com/gherlein/gogl/src"
+	"github.com/gherlein/gogl/src/types"
+	"github.com/gherlein/gogl/utilities/internal/conn"
 )
 
 // Options controls what List reports.

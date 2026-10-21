@@ -7,7 +7,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // Declaration is one parsed host block, with the line its block opened on so that

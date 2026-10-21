@@ -51,7 +51,7 @@
 
 ## Global Constraints
 
-- Module path: `github.com/emergingrobotics/gogl`. Library under `src/`, imported as `github.com/emergingrobotics/gogl/src`, package name `gogl`.
+- Module path: `github.com/gherlein/gogl`. Library under `src/`, imported as `github.com/gherlein/gogl/src`, package name `gogl`.
 - Every function MUST have a test. `make test` runs `go test -v -race -cover ./...`.
 - Every endpoint MUST be supported in the mock server. Tests use the mock, not real hardware.
 - No phase advances below 100% coverage of the code it adds.
@@ -409,7 +409,7 @@ No hardware, no discovery output. Pure code and pure tests.
 - [ ] **Step 1: Initialise the module**
 
 ```bash
-go mod init github.com/emergingrobotics/gogl
+go mod init github.com/gherlein/gogl
 go mod edit -go=1.22
 ```
 
@@ -992,7 +992,7 @@ var (
 )
 ```
 
-Add the import `"github.com/emergingrobotics/gogl/src/types"` to `src/errors.go`.
+Add the import `"github.com/gherlein/gogl/src/types"` to `src/errors.go`.
 
 - [ ] **Step 2: Write the failing test**
 
@@ -1628,7 +1628,7 @@ package types
 import (
 	"net"
 
-	"github.com/emergingrobotics/gogl/src/internal/ipmath"
+	"github.com/gherlein/gogl/src/internal/ipmath"
 )
 
 // Network is the router's LAN and DHCP server configuration. gogl never writes

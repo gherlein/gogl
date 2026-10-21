@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/emergingrobotics/gogl/src/auth"
-	"github.com/emergingrobotics/gogl/src/types"
+	"github.com/gherlein/gogl/src/auth"
+	"github.com/gherlein/gogl/src/types"
 )
 
 // Sentinels are declared in the leaf packages that return them and re-exported

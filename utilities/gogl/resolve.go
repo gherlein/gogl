@@ -5,8 +5,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	gogl "github.com/emergingrobotics/gogl/src"
-	"github.com/emergingrobotics/gogl/utilities/internal/netcfg"
+	gogl "github.com/gherlein/gogl/src"
+	"github.com/gherlein/gogl/utilities/internal/netcfg"
 )
 
 // resolveDevice settles which radio a command acts on.

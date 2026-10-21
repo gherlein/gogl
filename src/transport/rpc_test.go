@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/emergingrobotics/gogl/src/mock"
-	"github.com/emergingrobotics/gogl/src/transport"
+	"github.com/gherlein/gogl/src/mock"
+	"github.com/gherlein/gogl/src/transport"
 )
 
 func newTransport(t *testing.T, s *mock.Server, cfg transport.Config) transport.Transport {
